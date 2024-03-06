@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #313638;
+    
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .background{
+    background-image: url(/background.png);
+    object-fit: cover;
+    position: absolute;
+    width: 400px;
+    z-index: -1;
+} */
+.main{
+    /* background-color: blanchedalmond; */
+    background-image: url(/background.png);
+    object-fit: cover;
+    background-position: center;
+    width: 400px;
+    height: 110px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    border-radius: 20px;
+    transform: rotate(360deg);
+}
+/* .searchboxdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+} */
+.searchbox{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    /* margin-right: 120px;
+    margin-left: 60px; */
+    /* margin-top: 20px; */
+    justify-content: space-evenly;
+}
+.search{
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.searchicon{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftdetails2{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+.rightdetails2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+.insideleft{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.p1{
+    font-size: xx-large;
+}
+.p2{
+    font-size: large;
+}
+
+.details2{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid red 1px; */
+    width: 100%;
+    margin-top: 50px;
+
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    /* height: 60%; */
+  
+}
+.degree{
+    font-size: 60px;
+}
+.cityname{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.details img{
+    width: 50%;
+}
+.details2image{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.hide{
+    display: none;
+}
