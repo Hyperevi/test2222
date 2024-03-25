@@ -258,7 +258,9 @@ arr.forEach((elem)=>{
     }
 })
 console.log(freq);
-console.log(Object.values(freq));
+// console.log(Object.values(freq));
+Object.values(freq)
+hello how are you
 
 
 
